@@ -1,0 +1,10 @@
+let api_key="6cb5127df0c7e548a972bb97a20820e6";
+let img_url = "https://image.tmdb.org/t/p/w500";
+let genres_list_http = "https://api.themoviedb.org/3/genre/movie/list?";
+let movie_genres_http = "https://api.themoviedb.org/3/discover/movie?";
+let original_img_url = "https://image.tmdb.org/t/p/original";
+let movie_detail_http = "https://api.themoviedb.org/3/movie";
+let movie_now_playing = "https://api.themoviedb.org/3/movie/now_playing?";
+let series_tv = "https://api.themoviedb.org/3/tv/popular?";
+let series_tv_details = "https://api.themoviedb.org/3/tv";
+let search_movies="http://api.themoviedb.org/3/search/movie?";

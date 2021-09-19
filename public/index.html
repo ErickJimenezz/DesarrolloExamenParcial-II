@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Parcial 2</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <!-- nav bar-->
+  <nav class="navbar">
+    <img src="img/logo.png" class="logo" alt="" />
+    <div class="join-box">
+      <section id="seccion">
+        
+        <select id="filtro" class="select-css">
+          <option value="Filtrar por">Filtrar Por</option>
+          <option value="por nombre">Nombre de Pelicula, Serie</option>
+          <option value="género">Género</option>
+          <option value="año">Año de Estreno</option>
+          <option value="Clasificacion R(+18),PG13,PG o G">Clasificacion {R(+18),PG13,PG o G}</option>
+          <option value="Actualmente en Cine">Actualmente en Cine</option>
+          <option value="Peliculas para adultos mejor calificadas">Peliculas para adultos(R) Mejor calificadas</option>
+          <option value="Series de televisión">Series de TV</option>
+        </select>
+        <input type="text" id="search" placeholder="Buscar...">
+        <button class="fa fa-search" onclick="{Buscando()}">buscar</button>
+      </section>
+      <p class="join-msg">Ilimitado TV shows & Pelis</p>
+
+      <button class="btn join-btn">Suscribase hoy</button>
+      <button class="btn">Ingresar</button>
+    </div>
+  </nav>
+
+  <!-- SEccion principal-->
+  <header class="main">
+    <h1 class="heading">Pelis</h1>
+    <p class="info">
+      Las mejores pelis de la Red, series y cosas para quitar el tiempo,
+      todo esta aqui
+    </p>
+
+
+  </header>
+
+  <!-- se hacen la referncia a los JS en este orden -->
+  <script src="js/api.js"></script>
+  <script src="js/home.js"></script>
+  <script src="js/scroll.js"></script>
+</body>
+
+</html>
