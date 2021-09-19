@@ -130,7 +130,7 @@ function Filtrado() {
       break;
 
     case "Series de televisión":
-      filtrarSeries();
+      filtrarSeries(); 
       break;
   }
 }
