@@ -16,6 +16,7 @@ fetch(
       fetchListaPeliculasPorGenero(item.id, item.name);
     });
   });
+  
 
 const fetchListaPeliculasPorGenero = (id, genres) => {
   fetch(
