@@ -138,6 +138,7 @@ function Filtrado() {
 function filtrarPorNombre() {
   let nombre = search.value;
   fetch(
+  
     search_movies +
     new URLSearchParams({
       api_key: api_key,
